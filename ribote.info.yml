@@ -1,0 +1,19 @@
+name: Ribote
+type: profile
+description: 'Drupal minimal distribution'
+core_version_requirement: ^9.3.0
+
+distribution:
+  name: Ribote
+  install:
+    theme: claro
+
+install:
+  - metatag
+
+dependencies:
+  - admin_toolbar
+
+themes:
+  - olivero
+  - claro
