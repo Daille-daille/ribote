@@ -42,6 +42,10 @@
                     "overwrite": false,
                     "path": "scaffold/.env"
                 },
+                "[project-root]/load.environment.php": {
+                    "overwrite": false,
+                    "path": "scaffold/load.environment.php"
+                },
                 "[project-root]/drush/drush.yml": {
                     "overwrite": false,
                     "path": "scaffold/drush.yml"
