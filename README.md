@@ -10,10 +10,10 @@ composer create-project daille-daille/ribote-project MY_PROJECT --stability dev 
 
 ## Installing Drupal
 
-You should update the `drush/drush.yml` with your values.
+You should update the `.env` file with your values.
 Then install drupal using drush:
 ```shell
-drush si ribote \
+vendor/bin/drush si ribote \
   install_configure_form.enable_update_status_emails=NULL \
   install_configure_form.enable_update_status_module=false \
   install_configure_form.date_default_timezone=Europe/France \

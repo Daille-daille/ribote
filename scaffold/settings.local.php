@@ -165,3 +165,7 @@ $config['locale.settings']['translation']['use_source'] = 'remote_and_local';
 /** Loading environment variables from .env* files. Only localy, in production you should use real environment variables */
 $dotenv = new Dotenv();
 $dotenv->loadEnv(__DIR__ . '../../../.env');
+
+/** Adding local development common host patterns */
+$settings['trusted_host_patterns'][] = 'localhost';
+$settings['trusted_host_patterns'][] = '*.local$';

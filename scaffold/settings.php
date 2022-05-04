@@ -722,7 +722,7 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * example.org, with all subdomains included.
  */
 $settings['trusted_host_patterns'] = [
-  '*.local$',
+  getenv('APP_URL')
 ];
 
 /**
