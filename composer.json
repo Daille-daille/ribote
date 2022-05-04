@@ -36,7 +36,11 @@
             "file-mapping": {
                 "[project-root]/.gitignore": {
                     "overwrite": false,
-                    "path": "scaffold/default.gitignore"
+                    "path": "scaffold/.gitignore"
+                },
+                "[project-root]/.env": {
+                    "overwrite": false,
+                    "path": "scaffold/.env"
                 },
                 "[project-root]/drush/drush.yml": {
                     "overwrite": false,
@@ -52,9 +56,10 @@
                 "[web-root]/profiles/README.txt": false,
                 "[web-root]/sites/README.txt": false,
                 "[web-root]/sites/default/default.services.yml": false,
+                "[web-root]/sites/default/default.settings.php": false,
                 "[web-root]/sites/default/services.yml": {
                     "overwrite": false,
-                    "path": "scaffold/default.services.yml"
+                    "path": "scaffold/services.yml"
                 },
                 "[web-root]/sites/default/settings.development.php": false,
                 "[web-root]/sites/default/settings.local.php": {
@@ -63,7 +68,7 @@
                 },
                 "[web-root]/sites/default/settings.php": {
                     "overwrite": false,
-                    "path": "scaffold/default.settings.php"
+                    "path": "scaffold/settings.php"
                 },
                 "[web-root]/sites/development.services.yml": {
                     "overwrite": false,
