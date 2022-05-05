@@ -50,7 +50,6 @@
                     "overwrite": false,
                     "path": "scaffold/drush.yml"
                 },
-                "[web-root]/.ht.router.php": false,
                 "[web-root]/.htaccess": false,
                 "[web-root]/INSTALL.txt": false,
                 "[web-root]/README.md": false,

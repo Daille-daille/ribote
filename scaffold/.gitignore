@@ -21,6 +21,7 @@
 /web/.csslintrc
 /web/.eslintignore
 /web/.eslintrc.json
+/web/ht.router.php
 
 /web/sites/development.services.yml
 /web/sites/sites.php
