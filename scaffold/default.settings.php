@@ -776,3 +776,10 @@ if (getenv('APP_ENV')) {
   }
 }
 
+/**
+ * Symfony Mailer configuration.
+ */
+$config['symfony_mailer.mailer_transport.smtp']['configuration']['user'] = getenv('SMTP_USERNAME');
+$config['symfony_mailer.mailer_transport.smtp']['configuration']['pass'] = getenv('SMTP_PASSWORD');
+$config['symfony_mailer.mailer_transport.smtp']['configuration']['host'] = getenv('SMTP_HOST');
+$config['symfony_mailer.mailer_transport.smtp']['configuration']['port'] = getenv('SMTP_PORT');
