@@ -9,9 +9,7 @@ distribution:
     theme: claro
 
 install:
-  - drupal:admin_toolbar
   - drupal:block
-  - drupal:metatag
   - drupal:node
 
 themes:
