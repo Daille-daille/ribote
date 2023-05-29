@@ -27,5 +27,5 @@ vendor/bin/drush si ribote \
 You can use the php built-in server:
 ```shell
 cd web
-php -S my-app.local:8888 ht.router.php
+php -S my-app.local:8888 .ht.router.php
 ```
