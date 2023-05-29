@@ -1,3 +1,4 @@
 /.gitattributes export-ignore
 /.github/       export-ignore
+/.phive/        export-ignore
 /.README.md     export-ignore
