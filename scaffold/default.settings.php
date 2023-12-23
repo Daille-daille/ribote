@@ -857,6 +857,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # $settings['migrate_file_public_path'] = '';
 # $settings['migrate_file_private_path'] = '';
 
+// Don't keep unused files.
+$config['file.settings']['make_unused_managed_files_temporary'] = TRUE;
+
 /**
  * Load local development override configuration, if available.
  *
