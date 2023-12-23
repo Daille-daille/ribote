@@ -28,5 +28,4 @@
 /web/sites/*/settings.local.php
 
 /.editorconfig
-/load.environment.php
 /.env
