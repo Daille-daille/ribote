@@ -489,7 +489,7 @@ $settings['reverse_proxy'] = TRUE;
  *
  * Remove the leading hash signs to disable.
  */
-# $settings['allow_authorize_operations'] = FALSE;
+$settings['allow_authorize_operations'] = FALSE;
 
 /**
  * Default mode for directories and files written by Drupal.
