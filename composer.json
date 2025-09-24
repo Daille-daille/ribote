@@ -58,6 +58,7 @@
                 "[web-root]/example.gitignore": false,
                 "[web-root]/modules/README.txt": false,
                 "[web-root]/profiles/README.txt": false,
+                "[web-root]/recipes/README.txt": false,
                 "[web-root]/sites/README.txt": false,
                 "[web-root]/sites/default/default.services.yml": false,
                 "[web-root]/sites/default/default.settings.php": {
