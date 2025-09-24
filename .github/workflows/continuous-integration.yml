@@ -11,17 +11,24 @@ jobs:
     strategy:
       matrix:
         php-version:
-          - "8.1"
+          - "8.4"
 
         dependencies:
           - "locked"
 
     steps:
       - name: "Checkout"
-        uses: "actions/checkout@v3.5.2"
+        uses: "actions/checkout@v4"
+
+      - name: "Cache tools installed with PHIVE"
+        uses: "actions/cache@v4"
+        with:
+          path: "${{ runner.temp }}/.phive"
+          key: "php-${{ matrix.php-version }}-phive-${{ hashFiles('.phive/phars.xml') }}"
+          restore-keys: "php-${{ matrix.php-version }}-phive-"
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.25.2"
+        uses: "shivammathur/setup-php@2.35.5"
         with:
           coverage: "none"
           extensions: "none, ctype, dom, json, mbstring, phar, simplexml, tokenizer, xml, xmlwriter"
